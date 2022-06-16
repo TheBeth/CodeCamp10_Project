@@ -1,0 +1,71 @@
+.signin-header1{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 30px 0;
+}
+.signin-header2{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+.signin-form > form{
+    background-color: rgba(250, 235, 215, 0);
+}
+.form-signin-box > input[type=text],[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgba(242, 242, 242, 0.5);
+    color: rgb(0, 0, 0);
+}
+
+.form-signin-box > button{
+    position: relative;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 45px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    left: 25%;
+}
+.form-signin-box > button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.regis-ask-header{
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    padding: 90px 0 10px 0;
+    margin-top: 20px;
+}
+.regis-ask-btn{
+    background: none;
+}
+
+.regis-ask-btn > button{
+    position: relative;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 45px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    left: 23%;
+}
+.regis-ask-btn > button:hover{
+    background-color: rgb(0, 0, 0);
+}

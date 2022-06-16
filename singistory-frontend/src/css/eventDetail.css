@@ -1,0 +1,109 @@
+.eventDetailPage{
+    background-color: #2b3242;
+    padding: 1px;
+    width: 100%;
+    display: block;
+}
+.back-to-page{
+    text-align: left;
+    color: #ec7968;
+    margin: 35px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 190px;
+    margin: 40px 60px;
+}
+.back-to-page:hover{
+    color: #faa89c;
+}
+.event-detail-wrapper{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.event-detail-card{
+    display: flex;
+    background-color: #171e2d;
+    justify-content: center;
+}
+.event-detail-card-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    padding: 5px;
+}
+.event-detail-card-left:link{
+    text-decoration: none;
+}
+.event-detail-card-left > img {
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+}
+.event-detail-card-left > button {
+    font-size: 17px;
+    background-color: #f6a121;
+    border: none;
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.event-detail-card-left > button:active {
+    background-color: #ce871a;
+}
+.event-detail-card-right{
+    background-color: #323c51;
+    color: white;
+    width: 58%;
+    margin: 10px;
+    padding: 30px 15px;
+}
+.event-detail-card-right > p{
+    font-size: 1.5vw;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+.event-detail-header{
+    font-size: 6vh;
+    color: #ec7968;
+}
+
+.admin-edit-btn{
+    background-color: #171e2d;
+    margin: 10px 0;
+}
+.admin-edit-btn > button{
+    background-color: #f6a121;
+    border: 1px solid black;
+    margin: 10px;
+    padding:  5px;
+    font-size: 1rem;
+}
+.admin-edit-btn > button:active{
+    background-color: #ce871a;
+}
+
+.interest-singer{
+    background-color: #171e2d;
+    padding: 10px;
+}
+.interest-singer-list{
+    cursor: pointer;
+}
+
+.interest-event{
+    background-color: #171e2d;
+}
+.interest-event > h1{
+    padding-top: 20px;
+}
+
+button > a:visited{
+    color: black;
+}

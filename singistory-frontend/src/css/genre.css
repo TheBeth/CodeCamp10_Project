@@ -1,0 +1,72 @@
+.genrePage{
+    background-color: #2b3242;
+    padding: 1px;
+    width: 100%;
+    min-height: 490px;
+}
+.genre-wrapper{
+    width: 95%;
+    margin: auto;
+}
+.genre-list{
+    width: 100%;
+    height: auto;
+    background-color: #171e2d;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.genre-icon{
+    position: relative;
+    width: 24%;
+    height:160px;
+    cursor: pointer;
+    margin: 5px;
+}
+.genre-icon > img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition:  0.2s ease-in-out;
+}
+.genre-icon > p{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 40%;
+    font-size: 2vw;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.genre-icon > img:hover{
+    opacity: 0.4;
+}
+.genre-icon:hover p{
+    opacity: 1;
+}
+
+.genre-song{
+    width: 100%;
+    height: auto;
+    background-color: #171e2d;
+    padding: 15px;
+    margin: 15px;
+}
+.genre-select-header{
+    font-size: 3vw;
+    font-weight: 500;
+    color: #ec7968;   
+}
+.genre-song > table{
+    
+    width: 80%;
+    color: white;
+    margin: 40px;
+}
+.song-genre-detail > td{
+    font-size: 1.5vw;
+    padding: 10px 0;
+}

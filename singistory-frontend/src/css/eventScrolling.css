@@ -1,0 +1,15 @@
+.item{
+    min-height: 40rem;
+    min-width: 30rem;
+    padding: 40px;
+}
+
+.inner-carosal{
+    display: flex;
+    background-color: azure;
+}
+
+.carosal{
+    cursor: grab;
+    overflow: hidden;
+}

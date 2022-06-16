@@ -1,0 +1,73 @@
+.aboutPage{
+    background-color: #2b3141;
+    padding: 1px;
+}
+
+.about-box{
+    display: block;
+    padding: 30px;
+}
+
+.first-about{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 300px;
+}
+.first-about-header-box{
+    color: white;
+    background-color: #514132;
+    width: 50%;
+    font-size: 3rem;
+    padding: 100px 30px;
+}
+.first-about-details-box{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #73542a;
+    width: 50%;
+    padding: 0 30px;
+}
+.first-about-details-box > p{
+    text-indent: 2.5rem;
+    background-color: #73542a;
+    letter-spacing: 1.5px;
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.second-about{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 300px;
+}
+.second-about-header-box{
+    color: white;
+    background-color: #b27944;
+    width: 50%;
+    font-size: 3rem;
+    padding: 100px 30px;
+}
+.second-about-details-box{
+    color: white;
+    background-color: #876241;
+    width: 50%;
+    padding: 0 30px;
+}
+.second-about-details-box > ul li{
+    background-color: #876241;
+    list-style-type: circle;
+}
+.second-about-details-box > ul{
+    background-color: #876241;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+}
+.second-about-details-box > p{
+    background-color: #876241;
+    font-size: 2rem;
+}

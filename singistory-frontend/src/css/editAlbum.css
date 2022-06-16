@@ -1,0 +1,138 @@
+.editAlbumPage{
+    background-color: #2b3242;
+    width: 100%;
+    padding: 1px;
+    min-height: 490px;
+}
+
+.edit-album-wrapper{
+    background-color: #171e2d;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.edit-album-header{
+    margin: auto;
+}
+.edit-album-header > button {
+    background-color: #f6a121;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 45%;
+}
+.edit-album-header > button:active{
+    background-color: #ce871a;
+}
+.edit-album-header-text{
+    color: #ec7968;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+.edit-album-song-list{
+    background-color: #323c51;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.edit-album-song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.edit-album-song > button{
+    height: 40px;
+    border: 0.5px solid black;
+}
+.edit-album-song > button:active{
+    opacity: 0.5;
+}
+.edit-one-song{
+    width: 80%;
+    background-color: #576582;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0.5px solid black;
+}
+.edit-album-form{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    background-color: #323c51;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    border: 3px solid black;
+}
+.row{
+    margin: 10px 0;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-25 > label{
+    font-size: 1.5rem;
+}
+  
+.col-75, .col-75s {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.col-75 > input,textarea{
+    width: 85%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #576582;
+    border: 1px solid black;
+}
+.col-75 > textarea{
+    height: 200px;
+    resize: none;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-75s > input{
+    background-color: #576582;
+    border: 1px solid black;
+}
+button[type=reset]{
+    background-color: red;
+    border: 1px solid black;
+    height: 24px;
+}
+button[type=reset]:active{
+    background-color: rgb(240, 62, 62);
+    border: 1px solid black;
+    height: 24px;
+}
+.edit-album-form > button{
+    margin: 20px;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #f6a121;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 1rem;
+    margin-left: 80%;
+}
+.edit-album-form > button:active{
+    background-color: #ce871a;
+}
+

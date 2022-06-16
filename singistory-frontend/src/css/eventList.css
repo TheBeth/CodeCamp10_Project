@@ -1,0 +1,22 @@
+.eventListPage{
+    background-color: #2b3242;
+    padding: 1px;
+    width: 100%;
+    min-height: 490px;
+}
+
+.event-wrapper{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.all-event-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}

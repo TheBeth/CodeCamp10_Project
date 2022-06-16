@@ -1,0 +1,176 @@
+.singerDetailPage{
+    background-color: #2b3242;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+}
+
+.singer-detail-wrapper{
+    width: 95%;
+    margin: auto;
+    background-color: #171e2d;
+}
+.detail-card{
+    background-color: #171e2d;
+    padding: 10px;
+    margin: 10px 0;
+}
+.singer-detail-card{
+    display: flex;
+    background: #171e2d;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+.singer-detail-card > img{
+    width: 430px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.singer-detail-card-name{
+    background-color: #323c51;
+    color: white;
+    width: 900px;
+    margin: 0 10px 20px 10px;
+   
+}
+
+.singer-detail-header-main{
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #323c51;
+    color: #ec7968;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.singer-detail-dob{
+    font-size: 2rem;
+    background-color: #323c51;
+}
+.singer-detail-dob > p {
+    background-color: #323c51;
+    padding: 0 10px;
+    margin: 20px;
+}
+.singer-detail-personal{
+    background-color: #576582;
+    margin: 25px;
+    font-size: 1rem;
+    height: 240px;
+    overflow: hidden;
+    
+}
+.singer-detail-personal > p{
+    background-color: #576582;
+    margin: 20px;
+    text-indent: 2rem;
+    overflow: hidden;
+}
+
+.singer-social{
+    display: flex;
+    height: 40px;
+    background-color: #576582;
+}
+
+.singer-detail-logo{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #576582;
+    margin: 5px;
+}
+.singer-detail-logo a > img {
+    width: 30px;
+    height: 30px;
+    background-color: #576582;
+    cursor: pointer;
+}
+.follow-singer-social {
+    color: white;
+    width: 200px;
+    margin: 10px;
+    background-color: #576582;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.album-card{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.album-card-header{
+    color: #ec7968;
+    font-size: 3rem;
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.album-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.album-card-detail{
+    width: 250px;
+    height: 320px;
+    font-size: 1.8rem;
+    background-color: #323c51;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+    overflow: scroll;
+    border-radius: 5px;
+}
+.album-card-detail:hover{
+    opacity: 0.5;
+}
+.album-card-detail-name{
+    background-color: #323c51;
+    color: white;
+}
+.album-card-detail-name > p {
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+    background-color: #323c51;
+}
+
+.award-card{
+    color: white;
+    padding: 50px 0;
+}
+.award-header{
+    color: #ec7968;
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+}
+.award-list{
+    color: white;
+    margin: 5px;
+}
+.button-buttom{
+    text-align: center;
+}
+
+button {
+    background-color: #f6a121;
+    margin: 5px;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    height: 2vw;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #be7b16;
+}
+button:active{
+    background-color: #6d4810;
+}

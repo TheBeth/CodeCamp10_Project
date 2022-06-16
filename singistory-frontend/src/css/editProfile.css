@@ -1,0 +1,94 @@
+.editProfilePage{
+    background-color: #2b3242;
+    width: 100%;
+    padding: 1px;
+}
+
+.edit-profile-wrapper{
+    background-color: #171e2d;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.edit-profile-header{
+    margin: auto;
+}
+.edit-profile-header-text{
+    color: #ec7968;
+    font-size: 2.5rem;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.edit-profile-form{
+    background-color: #323c51;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+}
+.row{
+    margin: 10px 0;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-25 > label{
+    font-size: 1.5rem;
+}
+  
+.col-75, .col-75s {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.col-75 > input,textarea{
+    width: 85%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #576582;
+    border: 1px solid black;
+}
+.col-75 > textarea{
+    height: 200px;
+    resize: none;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-75s > input{
+    background-color: #576582;
+    border: 1px solid black;
+}
+button[type=reset]{
+    background-color: red;
+    border: 1px solid black;
+    height: 24px;
+}
+button[type=reset]:active{
+    background-color: rgb(240, 62, 62);
+    border: 1px solid black;
+    height: 24px;
+}
+.edit-profile-form > button{
+    margin: 20px;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #f6a121;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 1rem;
+    margin-left: 80%;
+}
+.edit-profile-form > button:active{
+    background-color: #ce871a;
+}
+

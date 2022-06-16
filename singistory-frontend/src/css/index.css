@@ -1,0 +1,9 @@
+.index{
+    width: 100%;
+}
+
+.index > img {
+    width: 100%;
+    object-fit: cover;
+    height: 655px;
+}

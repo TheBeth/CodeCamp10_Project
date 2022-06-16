@@ -1,0 +1,120 @@
+.postPage{
+    background-color: #2b3242;
+    width: 100%;
+    padding: 1px;
+}
+
+.post-wrapper{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #171e2d;
+    color: white;
+    margin: 30px;
+}
+
+.post-path{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 30px;
+}
+.post-header{
+    color: #ec7868;
+    font-size: 3vw;
+}
+.post-path > img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.post-main{
+    background-color: #323c51;
+    width: 80%;
+    margin: 5px;
+    padding: 20px 20px 0 20px;
+}
+.post-main > img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+    margin: 20px;
+}
+.post-detail{
+    font-size: 2vw;
+    margin: 15px;
+}
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.comment-path{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 15px;
+}
+.comment-path > img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.comment-main{
+    background-color: #323c51;
+    width: 80%;
+    margin: 5px;
+    padding: 20px 20px 0 20px;
+}
+.comment-detail{
+    font-size: 2vw;
+    margin: 15px;
+}
+.comment-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.comment-action-path{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 15px;
+
+}
+.comment-action-path > img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.comment-action-main{
+    background-color: #323c51;
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+}
+.comment-form{
+    width: 100%;
+}
+.form-comment > input{
+    width: 88%;
+    height: 40px;
+    background-color: #576582;
+    border: none;
+}
+.form-comment > button{
+    background-color: #f6a121;
+    border: none;
+    height: 40px;
+    margin-left: 10px;
+    width: 10%;
+    overflow: hidden;
+}

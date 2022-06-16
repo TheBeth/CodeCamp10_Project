@@ -1,0 +1,45 @@
+.newSingerPage{
+    background-color: #2b3242;
+    width: 100%;
+    padding: 1px;
+}
+
+.new-singer-wrapper{
+    background-color: #171e2d;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.new-singer-header{
+    margin: auto;
+}
+.new-singer-header-text{
+    color: #ec7968;
+    font-size: 2.5rem;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.new-singer-form{
+    background-color: #323c51;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+}
+.new-singer-form > button{
+    margin: 20px;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #f6a121;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 1rem;
+    margin-left: 80%;
+}
+.new-singer-form > button:active{
+    background-color: #ce871a;
+}
+

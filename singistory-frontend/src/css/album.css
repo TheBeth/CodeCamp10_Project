@@ -1,0 +1,132 @@
+.albumPage{
+    background-color: #2b3242;
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+
+.album-wrapper{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.album-detail-card{
+    background-color: #171e2d;
+    margin: 10px;
+    width: 80%;
+    height: 250px;
+    display: flex;
+}
+.album-detail-card > img{
+    margin: 7px;
+}
+.album-info{
+    background-color: #323C51;
+    width: 800px;
+    padding: 10px;
+    margin: 7px;
+    margin-left: 0;
+}
+.album-info-header{
+    color: #ec7868;
+    font-size: 3.5vw;
+    text-align: center;
+    overflow: hidden;
+    letter-spacing: 2px;
+}
+.album-info > p {
+    color: white;
+    font-size: 2vw;
+    margin: 15px;
+}
+
+.song-list{
+    width: 80%;
+    height: auto;
+    background-color: #171e2d;
+}
+.song-list-header{
+    text-align: center;
+    color: #ec7868;
+    background-color: #323C51;
+    padding: 10px;
+    margin: 5px;
+    font-size: 3vw;
+    letter-spacing: 2px;
+}
+.song-list-table{
+    width: 98%;
+    color: white;
+    background-color: #576582;
+    margin: 10px;
+}
+.song-list-table > table{
+    width: 100%;
+    padding: 20px 60px;
+}
+.songName{
+    font-size: 20px;
+    margin: 0;
+}
+.songTime{
+    text-align: center;
+    font-size: 15px; 
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.streaming{
+    text-align:right; 
+    display: flex;
+    justify-content: center ;
+}
+.streaming > a{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+} 
+.streaming > a > img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.song-table-title{
+    text-align: center;
+    font-size: 1.7vw;
+    color: #ec7868;
+}
+
+.song-table-title > th{
+    width: 200px;
+}
+
+.album-detail-footer{
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.album-detail-footer > button{
+    background-color: #f6a121;
+    font-size: 1rem;
+    padding: 5px;
+}
+.album-detail-footer:link{
+    text-decoration: none;
+}
+.album-detail-footer > button:active{
+    background-color: #ce871a;
+}
+
+.singer-song{
+    margin: 0;
+    color: #252c3b;
+}
